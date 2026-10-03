@@ -1,9 +1,8 @@
+CompilationDatabase: "hardware/wokwi"
+
 CompileFlags:
   Add:
-    - "-DARDUINO=10819"
-    - "-DESP32"
-    - "-DARDUINO_ARCH_ESP32"
-    - "-IC:/Users/saash/OneDrive/Desktop/New folder/New folder/hardware/wokwi/firmware/stubs"
+    - "-w"
     - "-Wno-everything"
 
 Diagnostics:

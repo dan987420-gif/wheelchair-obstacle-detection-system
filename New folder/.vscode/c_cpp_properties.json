@@ -1,16 +1,8 @@
 {
   "configurations": [
     {
-      "name": "Arduino ESP32 (Wokwi)",
-      "includePath": [
-        "${workspaceFolder}/**",
-        "C:/Users/saash/OneDrive/Desktop/New folder/New folder/hardware/wokwi/firmware/stubs"
-      ],
-      "defines": [
-        "ARDUINO=10819",
-        "ARDUINO_ARCH_ESP32",
-        "ESP32"
-      ],
+      "name": "PlatformIO ESP32",
+      "compileCommands": "${workspaceFolder}/hardware/wokwi/compile_commands.json",
       "cStandard": "c11",
       "cppStandard": "c++17"
     }
