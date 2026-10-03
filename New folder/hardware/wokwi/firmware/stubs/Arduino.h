@@ -5,6 +5,11 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <math.h>
+#include <cmath>
+
+#ifdef String
+#undef String
+#endif
 
 class String {
 public:
@@ -59,7 +64,6 @@ inline void digitalWrite(uint8_t, uint8_t) {}
 inline int digitalRead(uint8_t) { return 0; }
 inline void yield() {}
 
-#include <cmath>
 inline double round(double x) { return std::round(x); }
 inline float round(float x) { return std::round(x); }
 
