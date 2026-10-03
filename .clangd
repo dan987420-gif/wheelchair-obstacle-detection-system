@@ -1,10 +1,8 @@
-CompilationDatabase: "New folder/hardware/wokwi"
-
 CompileFlags:
+  CompilationDatabase: "New folder/hardware/wokwi"
   Add:
     - "-w"
     - "-Wno-everything"
 
 Diagnostics:
-  Suppress:
-    - "*"
+  Suppress: "*"
