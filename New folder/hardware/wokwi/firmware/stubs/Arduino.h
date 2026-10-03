@@ -1,5 +1,7 @@
-#ifndef ARDUINO_H_STUB
-#define ARDUINO_H_STUB
+#ifndef Arduino_h
+#define Arduino_h
+#ifndef ARDUINO_H
+#define ARDUINO_H
 
 #include <stdint.h>
 #include <stddef.h>
@@ -7,33 +9,31 @@
 #include <math.h>
 #include <cmath>
 
-#ifdef String
-#undef String
-#endif
+#define String ArduinoString
 
-class String {
+class ArduinoString {
 public:
-    String() {}
-    String(const char* s) {}
-    String(int v) {}
-    String(float v, int dec = 2) {}
-    String(unsigned long v) {}
-    String(double v, int dec = 2) {}
+    ArduinoString() {}
+    ArduinoString(const char* s) {}
+    ArduinoString(int v) {}
+    ArduinoString(float v, int dec = 2) {}
+    ArduinoString(unsigned long v) {}
+    ArduinoString(double v, int dec = 2) {}
 
-    String operator+(const String& o) const { return String(); }
-    String operator+(const char* s) const { return String(); }
-    String& operator+=(const String& o) { return *this; }
-    String& operator+=(const char* s) { return *this; }
+    ArduinoString operator+(const ArduinoString& o) const { return ArduinoString(); }
+    ArduinoString operator+(const char* s) const { return ArduinoString(); }
+    ArduinoString& operator+=(const ArduinoString& o) { return *this; }
+    ArduinoString& operator+=(const char* s) { return *this; }
 
     bool operator==(const char* s) const { return true; }
     bool operator!=(const char* s) const { return false; }
-    bool operator==(const String& s) const { return true; }
-    bool operator!=(const String& s) const { return false; }
+    bool operator==(const ArduinoString& s) const { return true; }
+    bool operator!=(const ArduinoString& s) const { return false; }
 
     const char* c_str() const { return ""; }
 };
 
-inline String operator+(const char* lhs, const String& rhs) { return String(); }
+inline ArduinoString operator+(const char* lhs, const ArduinoString& rhs) { return ArduinoString(); }
 
 #define HIGH 0x1
 #define LOW  0x0
@@ -47,10 +47,10 @@ class HardwareSerial {
 public:
     void begin(unsigned long baud) {}
     void print(const char*) {}
-    void print(const String&) {}
+    void print(const ArduinoString&) {}
     void print(float, int = 2) {}
     void println(const char* = "") {}
-    void println(const String&) {}
+    void println(const ArduinoString&) {}
     void println(float, int = 2) {}
 };
 extern HardwareSerial Serial;
@@ -67,4 +67,5 @@ inline void yield() {}
 inline double round(double x) { return std::round(x); }
 inline float round(float x) { return std::round(x); }
 
-#endif // ARDUINO_H_STUB
+#endif // ARDUINO_H
+#endif // Arduino_h
