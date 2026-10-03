@@ -1,0 +1,5377 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "device_id": "WC-001",
+      "name": "Wheelchair Prototype Alpha",
+      "location": "Lab Test Rig",
+      "firmware_version": "1.0.0-sim",
+      "status": "OFFLINE",
+      "last_seen": "2026-09-30T06:59:21.729Z",
+      "created_at": "2026-09-30T06:34:43.244Z",
+      "updated_at": "2026-09-30T06:59:21.729Z"
+    }
+  ],
+  "sensor_readings": [
+    {
+      "id": 1,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 185.2,
+      "risk_level": "SAFE",
+      "source": "WOKWI",
+      "recorded_at": "2026-09-30T06:39:56.419Z"
+    },
+    {
+      "id": 2,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 18,
+      "risk_level": "CRITICAL",
+      "source": "WOKWI",
+      "recorded_at": "2026-09-30T06:39:56.422Z"
+    },
+    {
+      "id": 3,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:39:56.431Z"
+    },
+    {
+      "id": 4,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:55:54.528Z"
+    },
+    {
+      "id": 5,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:55:55.528Z"
+    },
+    {
+      "id": 6,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:55:56.528Z"
+    },
+    {
+      "id": 7,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:55:57.529Z"
+    },
+    {
+      "id": 8,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:55:58.529Z"
+    },
+    {
+      "id": 9,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:55:59.530Z"
+    },
+    {
+      "id": 10,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:00.529Z"
+    },
+    {
+      "id": 11,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:01.529Z"
+    },
+    {
+      "id": 12,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:02.529Z"
+    },
+    {
+      "id": 13,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:03.530Z"
+    },
+    {
+      "id": 14,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:04.531Z"
+    },
+    {
+      "id": 15,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:05.532Z"
+    },
+    {
+      "id": 16,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:06.532Z"
+    },
+    {
+      "id": 17,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:07.533Z"
+    },
+    {
+      "id": 18,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:08.533Z"
+    },
+    {
+      "id": 19,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:09.533Z"
+    },
+    {
+      "id": 20,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:10.534Z"
+    },
+    {
+      "id": 21,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:11.534Z"
+    },
+    {
+      "id": 22,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:12.535Z"
+    },
+    {
+      "id": 23,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:13.536Z"
+    },
+    {
+      "id": 24,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:14.537Z"
+    },
+    {
+      "id": 25,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:15.536Z"
+    },
+    {
+      "id": 26,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:16.537Z"
+    },
+    {
+      "id": 27,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:17.538Z"
+    },
+    {
+      "id": 28,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:18.538Z"
+    },
+    {
+      "id": 29,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:19.538Z"
+    },
+    {
+      "id": 30,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:20.538Z"
+    },
+    {
+      "id": 31,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:21.539Z"
+    },
+    {
+      "id": 32,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:22.540Z"
+    },
+    {
+      "id": 33,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:23.540Z"
+    },
+    {
+      "id": 34,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:24.541Z"
+    },
+    {
+      "id": 35,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:25.542Z"
+    },
+    {
+      "id": 36,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:26.543Z"
+    },
+    {
+      "id": 37,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:27.544Z"
+    },
+    {
+      "id": 38,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:28.545Z"
+    },
+    {
+      "id": 39,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:29.544Z"
+    },
+    {
+      "id": 40,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:30.545Z"
+    },
+    {
+      "id": 41,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:31.545Z"
+    },
+    {
+      "id": 42,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:32.546Z"
+    },
+    {
+      "id": 43,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:33.546Z"
+    },
+    {
+      "id": 44,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:34.547Z"
+    },
+    {
+      "id": 45,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:35.548Z"
+    },
+    {
+      "id": 46,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:36.549Z"
+    },
+    {
+      "id": 47,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:37.549Z"
+    },
+    {
+      "id": 48,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:38.549Z"
+    },
+    {
+      "id": 49,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:39.549Z"
+    },
+    {
+      "id": 50,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:40.550Z"
+    },
+    {
+      "id": 51,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:41.552Z"
+    },
+    {
+      "id": 52,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:42.552Z"
+    },
+    {
+      "id": 53,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:43.552Z"
+    },
+    {
+      "id": 54,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:44.553Z"
+    },
+    {
+      "id": 55,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:45.554Z"
+    },
+    {
+      "id": 56,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:46.553Z"
+    },
+    {
+      "id": 57,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:47.554Z"
+    },
+    {
+      "id": 58,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:48.554Z"
+    },
+    {
+      "id": 59,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:49.554Z"
+    },
+    {
+      "id": 60,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:50.555Z"
+    },
+    {
+      "id": 61,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:51.555Z"
+    },
+    {
+      "id": 62,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:52.556Z"
+    },
+    {
+      "id": 63,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:53.556Z"
+    },
+    {
+      "id": 64,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:54.556Z"
+    },
+    {
+      "id": 65,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:55.556Z"
+    },
+    {
+      "id": 66,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:56.559Z"
+    },
+    {
+      "id": 67,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:57.558Z"
+    },
+    {
+      "id": 68,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:58.558Z"
+    },
+    {
+      "id": 69,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:56:59.559Z"
+    },
+    {
+      "id": 70,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:00.560Z"
+    },
+    {
+      "id": 71,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:01.560Z"
+    },
+    {
+      "id": 72,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:02.560Z"
+    },
+    {
+      "id": 73,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:03.562Z"
+    },
+    {
+      "id": 74,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:04.561Z"
+    },
+    {
+      "id": 75,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:05.561Z"
+    },
+    {
+      "id": 76,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:06.562Z"
+    },
+    {
+      "id": 77,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:07.562Z"
+    },
+    {
+      "id": 78,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:08.562Z"
+    },
+    {
+      "id": 79,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:09.562Z"
+    },
+    {
+      "id": 80,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:10.563Z"
+    },
+    {
+      "id": 81,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:11.564Z"
+    },
+    {
+      "id": 82,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:12.563Z"
+    },
+    {
+      "id": 83,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:13.563Z"
+    },
+    {
+      "id": 84,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:14.564Z"
+    },
+    {
+      "id": 85,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:15.566Z"
+    },
+    {
+      "id": 86,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:16.566Z"
+    },
+    {
+      "id": 87,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:17.038Z"
+    },
+    {
+      "id": 88,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:17.567Z"
+    },
+    {
+      "id": 89,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:18.568Z"
+    },
+    {
+      "id": 90,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:19.569Z"
+    },
+    {
+      "id": 91,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:20.570Z"
+    },
+    {
+      "id": 92,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:21.572Z"
+    },
+    {
+      "id": 93,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:22.572Z"
+    },
+    {
+      "id": 94,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:23.572Z"
+    },
+    {
+      "id": 95,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:24.573Z"
+    },
+    {
+      "id": 96,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:25.573Z"
+    },
+    {
+      "id": 97,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:26.574Z"
+    },
+    {
+      "id": 98,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:27.574Z"
+    },
+    {
+      "id": 99,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:28.575Z"
+    },
+    {
+      "id": 100,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:29.576Z"
+    },
+    {
+      "id": 101,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 33,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:29.941Z"
+    },
+    {
+      "id": 102,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 37,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:29.965Z"
+    },
+    {
+      "id": 103,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 43,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:29.980Z"
+    },
+    {
+      "id": 104,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 50,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:29.993Z"
+    },
+    {
+      "id": 105,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 65,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.012Z"
+    },
+    {
+      "id": 106,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 72,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.025Z"
+    },
+    {
+      "id": 107,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 82,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.048Z"
+    },
+    {
+      "id": 108,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 88,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.062Z"
+    },
+    {
+      "id": 109,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 91,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.075Z"
+    },
+    {
+      "id": 110,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 94,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.091Z"
+    },
+    {
+      "id": 111,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 95,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.104Z"
+    },
+    {
+      "id": 112,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 99,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.120Z"
+    },
+    {
+      "id": 113,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.132Z"
+    },
+    {
+      "id": 114,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 101,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.157Z"
+    },
+    {
+      "id": 115,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 102,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.169Z"
+    },
+    {
+      "id": 116,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 103,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.181Z"
+    },
+    {
+      "id": 117,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 105,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.531Z"
+    },
+    {
+      "id": 118,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 106,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.558Z"
+    },
+    {
+      "id": 119,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.579Z"
+    },
+    {
+      "id": 120,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 107,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.592Z"
+    },
+    {
+      "id": 121,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 109,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.608Z"
+    },
+    {
+      "id": 122,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 110,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.621Z"
+    },
+    {
+      "id": 123,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 111,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.634Z"
+    },
+    {
+      "id": 124,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 112,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.648Z"
+    },
+    {
+      "id": 125,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 113,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.672Z"
+    },
+    {
+      "id": 126,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 114,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.686Z"
+    },
+    {
+      "id": 127,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 116,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.701Z"
+    },
+    {
+      "id": 128,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 118,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.717Z"
+    },
+    {
+      "id": 129,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 123,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.731Z"
+    },
+    {
+      "id": 130,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 125,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.746Z"
+    },
+    {
+      "id": 131,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 126,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.770Z"
+    },
+    {
+      "id": 132,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 127,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.783Z"
+    },
+    {
+      "id": 133,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 128,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.798Z"
+    },
+    {
+      "id": 134,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 129,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.811Z"
+    },
+    {
+      "id": 135,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.825Z"
+    },
+    {
+      "id": 136,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 131,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.839Z"
+    },
+    {
+      "id": 137,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 133,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.858Z"
+    },
+    {
+      "id": 138,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 134,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.872Z"
+    },
+    {
+      "id": 139,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 136,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.888Z"
+    },
+    {
+      "id": 140,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 137,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.903Z"
+    },
+    {
+      "id": 141,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 138,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.933Z"
+    },
+    {
+      "id": 142,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 139,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:30.986Z"
+    },
+    {
+      "id": 143,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 140,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.070Z"
+    },
+    {
+      "id": 144,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 141,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.095Z"
+    },
+    {
+      "id": 145,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 142,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.123Z"
+    },
+    {
+      "id": 146,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 143,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.136Z"
+    },
+    {
+      "id": 147,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 144,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.251Z"
+    },
+    {
+      "id": 148,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 146,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.298Z"
+    },
+    {
+      "id": 149,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 153,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.334Z"
+    },
+    {
+      "id": 150,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 158,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.347Z"
+    },
+    {
+      "id": 151,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 172,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.359Z"
+    },
+    {
+      "id": 152,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 180,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.372Z"
+    },
+    {
+      "id": 153,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 188,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.384Z"
+    },
+    {
+      "id": 154,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 196,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.395Z"
+    },
+    {
+      "id": 155,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 204,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.408Z"
+    },
+    {
+      "id": 156,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 217,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.421Z"
+    },
+    {
+      "id": 157,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 222,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.432Z"
+    },
+    {
+      "id": 158,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 228,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.448Z"
+    },
+    {
+      "id": 159,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 234,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.460Z"
+    },
+    {
+      "id": 160,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 236,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.473Z"
+    },
+    {
+      "id": 161,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 238,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.484Z"
+    },
+    {
+      "id": 162,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 240,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.497Z"
+    },
+    {
+      "id": 163,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 243,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.511Z"
+    },
+    {
+      "id": 164,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 244,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.529Z"
+    },
+    {
+      "id": 165,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 245,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.541Z"
+    },
+    {
+      "id": 166,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 246,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.561Z"
+    },
+    {
+      "id": 167,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 248,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.573Z"
+    },
+    {
+      "id": 168,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 249,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.584Z"
+    },
+    {
+      "id": 169,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 250,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.596Z"
+    },
+    {
+      "id": 170,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.608Z"
+    },
+    {
+      "id": 171,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 251,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.621Z"
+    },
+    {
+      "id": 172,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 253,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.633Z"
+    },
+    {
+      "id": 173,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 254,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.644Z"
+    },
+    {
+      "id": 174,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 255,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.658Z"
+    },
+    {
+      "id": 175,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 256,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.669Z"
+    },
+    {
+      "id": 176,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 257,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.681Z"
+    },
+    {
+      "id": 177,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 258,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.704Z"
+    },
+    {
+      "id": 178,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 259,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:31.717Z"
+    },
+    {
+      "id": 179,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 260,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.140Z"
+    },
+    {
+      "id": 180,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 261,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.172Z"
+    },
+    {
+      "id": 181,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 262,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.202Z"
+    },
+    {
+      "id": 182,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 263,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.221Z"
+    },
+    {
+      "id": 183,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 264,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.234Z"
+    },
+    {
+      "id": 184,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 265,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.254Z"
+    },
+    {
+      "id": 185,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 266,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.270Z"
+    },
+    {
+      "id": 186,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 268,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.284Z"
+    },
+    {
+      "id": 187,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 269,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.313Z"
+    },
+    {
+      "id": 188,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 270,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.328Z"
+    },
+    {
+      "id": 189,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 272,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.340Z"
+    },
+    {
+      "id": 190,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 274,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.354Z"
+    },
+    {
+      "id": 191,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 275,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.372Z"
+    },
+    {
+      "id": 192,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 277,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.388Z"
+    },
+    {
+      "id": 193,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 279,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.400Z"
+    },
+    {
+      "id": 194,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 281,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.418Z"
+    },
+    {
+      "id": 195,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 282,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.429Z"
+    },
+    {
+      "id": 196,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 283,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.442Z"
+    },
+    {
+      "id": 197,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 284,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.455Z"
+    },
+    {
+      "id": 198,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 285,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.482Z"
+    },
+    {
+      "id": 199,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 286,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.499Z"
+    },
+    {
+      "id": 200,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 287,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.517Z"
+    },
+    {
+      "id": 201,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 288,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.540Z"
+    },
+    {
+      "id": 202,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 289,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.559Z"
+    },
+    {
+      "id": 203,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 290,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.573Z"
+    },
+    {
+      "id": 204,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 291,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.594Z"
+    },
+    {
+      "id": 205,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.608Z"
+    },
+    {
+      "id": 206,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 292,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.620Z"
+    },
+    {
+      "id": 207,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 293,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.661Z"
+    },
+    {
+      "id": 208,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 294,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.691Z"
+    },
+    {
+      "id": 209,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 295,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.715Z"
+    },
+    {
+      "id": 210,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 296,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.734Z"
+    },
+    {
+      "id": 211,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 297,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.754Z"
+    },
+    {
+      "id": 212,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 298,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.771Z"
+    },
+    {
+      "id": 213,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 299,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.788Z"
+    },
+    {
+      "id": 214,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 300,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:32.801Z"
+    },
+    {
+      "id": 215,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:33.608Z"
+    },
+    {
+      "id": 216,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:34.608Z"
+    },
+    {
+      "id": 217,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:35.609Z"
+    },
+    {
+      "id": 218,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:36.610Z"
+    },
+    {
+      "id": 219,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.610Z"
+    },
+    {
+      "id": 220,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 297,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.648Z"
+    },
+    {
+      "id": 221,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 293,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.675Z"
+    },
+    {
+      "id": 222,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 291,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.698Z"
+    },
+    {
+      "id": 223,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 289,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.712Z"
+    },
+    {
+      "id": 224,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 284,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.739Z"
+    },
+    {
+      "id": 225,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 282,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.753Z"
+    },
+    {
+      "id": 226,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 279,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.765Z"
+    },
+    {
+      "id": 227,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 278,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.778Z"
+    },
+    {
+      "id": 228,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 275,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.790Z"
+    },
+    {
+      "id": 229,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 274,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.802Z"
+    },
+    {
+      "id": 230,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 272,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.814Z"
+    },
+    {
+      "id": 231,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 271,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.829Z"
+    },
+    {
+      "id": 232,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 268,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.841Z"
+    },
+    {
+      "id": 233,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 266,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.854Z"
+    },
+    {
+      "id": 234,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 264,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.869Z"
+    },
+    {
+      "id": 235,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 262,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.881Z"
+    },
+    {
+      "id": 236,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 260,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.892Z"
+    },
+    {
+      "id": 237,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 256,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.904Z"
+    },
+    {
+      "id": 238,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 253,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.917Z"
+    },
+    {
+      "id": 239,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 250,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.931Z"
+    },
+    {
+      "id": 240,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 248,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.956Z"
+    },
+    {
+      "id": 241,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 244,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.969Z"
+    },
+    {
+      "id": 242,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 243,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.984Z"
+    },
+    {
+      "id": 243,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 242,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:37.994Z"
+    },
+    {
+      "id": 244,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 241,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.007Z"
+    },
+    {
+      "id": 245,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 240,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.020Z"
+    },
+    {
+      "id": 246,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 239,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.032Z"
+    },
+    {
+      "id": 247,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 238,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.045Z"
+    },
+    {
+      "id": 248,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 237,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.057Z"
+    },
+    {
+      "id": 249,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 236,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.068Z"
+    },
+    {
+      "id": 250,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 235,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.324Z"
+    },
+    {
+      "id": 251,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 234,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.364Z"
+    },
+    {
+      "id": 252,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 231,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.377Z"
+    },
+    {
+      "id": 253,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 229,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.391Z"
+    },
+    {
+      "id": 254,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 227,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.404Z"
+    },
+    {
+      "id": 255,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 224,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.418Z"
+    },
+    {
+      "id": 256,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 218,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.432Z"
+    },
+    {
+      "id": 257,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 215,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.448Z"
+    },
+    {
+      "id": 258,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 212,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.460Z"
+    },
+    {
+      "id": 259,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 206,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.472Z"
+    },
+    {
+      "id": 260,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 203,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.492Z"
+    },
+    {
+      "id": 261,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 201,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.504Z"
+    },
+    {
+      "id": 262,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 199,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.517Z"
+    },
+    {
+      "id": 263,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 196,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.530Z"
+    },
+    {
+      "id": 264,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 192,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.543Z"
+    },
+    {
+      "id": 265,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 189,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.557Z"
+    },
+    {
+      "id": 266,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 187,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.580Z"
+    },
+    {
+      "id": 267,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 185,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.592Z"
+    },
+    {
+      "id": 268,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 180,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.605Z"
+    },
+    {
+      "id": 269,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.617Z"
+    },
+    {
+      "id": 270,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 178,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.629Z"
+    },
+    {
+      "id": 271,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 176,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.641Z"
+    },
+    {
+      "id": 272,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 171,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.652Z"
+    },
+    {
+      "id": 273,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 169,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.665Z"
+    },
+    {
+      "id": 274,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 166,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.677Z"
+    },
+    {
+      "id": 275,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 164,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.689Z"
+    },
+    {
+      "id": 276,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 162,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.705Z"
+    },
+    {
+      "id": 277,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 159,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.720Z"
+    },
+    {
+      "id": 278,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 158,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.734Z"
+    },
+    {
+      "id": 279,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 157,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.748Z"
+    },
+    {
+      "id": 280,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 156,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.760Z"
+    },
+    {
+      "id": 281,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 154,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.773Z"
+    },
+    {
+      "id": 282,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 153,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.786Z"
+    },
+    {
+      "id": 283,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 151,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.799Z"
+    },
+    {
+      "id": 284,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 150,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.813Z"
+    },
+    {
+      "id": 285,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 149,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.827Z"
+    },
+    {
+      "id": 286,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 148,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.847Z"
+    },
+    {
+      "id": 287,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 147,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.862Z"
+    },
+    {
+      "id": 288,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.875Z"
+    },
+    {
+      "id": 289,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 143,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.888Z"
+    },
+    {
+      "id": 290,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 141,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.902Z"
+    },
+    {
+      "id": 291,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 139,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.915Z"
+    },
+    {
+      "id": 292,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 138,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.934Z"
+    },
+    {
+      "id": 293,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 137,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.947Z"
+    },
+    {
+      "id": 294,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 136,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.972Z"
+    },
+    {
+      "id": 295,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 135,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:38.986Z"
+    },
+    {
+      "id": 296,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 134,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.002Z"
+    },
+    {
+      "id": 297,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 132,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.017Z"
+    },
+    {
+      "id": 298,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 131,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.030Z"
+    },
+    {
+      "id": 299,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.044Z"
+    },
+    {
+      "id": 300,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 127,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.057Z"
+    },
+    {
+      "id": 301,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 125,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.071Z"
+    },
+    {
+      "id": 302,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 123,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.086Z"
+    },
+    {
+      "id": 303,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 122,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.099Z"
+    },
+    {
+      "id": 304,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 121,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.113Z"
+    },
+    {
+      "id": 305,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 120,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.133Z"
+    },
+    {
+      "id": 306,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 118,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.148Z"
+    },
+    {
+      "id": 307,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 117,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.163Z"
+    },
+    {
+      "id": 308,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 116,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.175Z"
+    },
+    {
+      "id": 309,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 114,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.191Z"
+    },
+    {
+      "id": 310,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 112,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.205Z"
+    },
+    {
+      "id": 311,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 111,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.263Z"
+    },
+    {
+      "id": 312,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 108,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.295Z"
+    },
+    {
+      "id": 313,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 106,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.357Z"
+    },
+    {
+      "id": 314,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 105,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.381Z"
+    },
+    {
+      "id": 315,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 104,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.410Z"
+    },
+    {
+      "id": 316,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 103,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.444Z"
+    },
+    {
+      "id": 317,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 102,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.459Z"
+    },
+    {
+      "id": 318,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 101,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.473Z"
+    },
+    {
+      "id": 319,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.488Z"
+    },
+    {
+      "id": 320,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 98,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.517Z"
+    },
+    {
+      "id": 321,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 96,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.534Z"
+    },
+    {
+      "id": 322,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 95,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.550Z"
+    },
+    {
+      "id": 323,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 93,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.563Z"
+    },
+    {
+      "id": 324,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 90,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.578Z"
+    },
+    {
+      "id": 325,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 89,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.593Z"
+    },
+    {
+      "id": 326,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 86,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.611Z"
+    },
+    {
+      "id": 327,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.624Z"
+    },
+    {
+      "id": 328,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 84,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.637Z"
+    },
+    {
+      "id": 329,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 82,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.650Z"
+    },
+    {
+      "id": 330,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 81,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.663Z"
+    },
+    {
+      "id": 331,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 78,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.678Z"
+    },
+    {
+      "id": 332,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 76,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.691Z"
+    },
+    {
+      "id": 333,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 75,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.705Z"
+    },
+    {
+      "id": 334,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 73,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.720Z"
+    },
+    {
+      "id": 335,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 72,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.733Z"
+    },
+    {
+      "id": 336,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 71,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.752Z"
+    },
+    {
+      "id": 337,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.764Z"
+    },
+    {
+      "id": 338,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 69,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.777Z"
+    },
+    {
+      "id": 339,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 68,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.793Z"
+    },
+    {
+      "id": 340,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 67,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.806Z"
+    },
+    {
+      "id": 341,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 66,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.830Z"
+    },
+    {
+      "id": 342,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 63,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.844Z"
+    },
+    {
+      "id": 343,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 61,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.857Z"
+    },
+    {
+      "id": 344,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 59,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.872Z"
+    },
+    {
+      "id": 345,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 58,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.884Z"
+    },
+    {
+      "id": 346,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.898Z"
+    },
+    {
+      "id": 347,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 54,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.913Z"
+    },
+    {
+      "id": 348,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 52,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.926Z"
+    },
+    {
+      "id": 349,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 51,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.941Z"
+    },
+    {
+      "id": 350,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 47,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.954Z"
+    },
+    {
+      "id": 351,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.977Z"
+    },
+    {
+      "id": 352,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 43,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:39.991Z"
+    },
+    {
+      "id": 353,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 41,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.007Z"
+    },
+    {
+      "id": 354,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.023Z"
+    },
+    {
+      "id": 355,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 39,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.036Z"
+    },
+    {
+      "id": 356,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 38,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.050Z"
+    },
+    {
+      "id": 357,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 37,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.064Z"
+    },
+    {
+      "id": 358,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 35,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.077Z"
+    },
+    {
+      "id": 359,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 33,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.092Z"
+    },
+    {
+      "id": 360,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 29,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.108Z"
+    },
+    {
+      "id": 361,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 27,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.122Z"
+    },
+    {
+      "id": 362,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.135Z"
+    },
+    {
+      "id": 363,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 24,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.151Z"
+    },
+    {
+      "id": 364,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 22,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.165Z"
+    },
+    {
+      "id": 365,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 21,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.179Z"
+    },
+    {
+      "id": 366,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 20,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.194Z"
+    },
+    {
+      "id": 367,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 18,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.220Z"
+    },
+    {
+      "id": 368,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 17,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.234Z"
+    },
+    {
+      "id": 369,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 15,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.248Z"
+    },
+    {
+      "id": 370,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 13,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.261Z"
+    },
+    {
+      "id": 371,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 10,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.274Z"
+    },
+    {
+      "id": 372,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:40.624Z"
+    },
+    {
+      "id": 373,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:41.623Z"
+    },
+    {
+      "id": 374,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 12,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.487Z"
+    },
+    {
+      "id": 375,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 15,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.507Z"
+    },
+    {
+      "id": 376,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 21,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.537Z"
+    },
+    {
+      "id": 377,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 24,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.552Z"
+    },
+    {
+      "id": 378,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 28,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.565Z"
+    },
+    {
+      "id": 379,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 31,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.580Z"
+    },
+    {
+      "id": 380,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 32,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.599Z"
+    },
+    {
+      "id": 381,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.626Z"
+    },
+    {
+      "id": 382,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 35,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.640Z"
+    },
+    {
+      "id": 383,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 37,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.654Z"
+    },
+    {
+      "id": 384,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 39,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.667Z"
+    },
+    {
+      "id": 385,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 41,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.681Z"
+    },
+    {
+      "id": 386,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 42,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.694Z"
+    },
+    {
+      "id": 387,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.708Z"
+    },
+    {
+      "id": 388,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 47,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.722Z"
+    },
+    {
+      "id": 389,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 49,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.736Z"
+    },
+    {
+      "id": 390,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 50,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.754Z"
+    },
+    {
+      "id": 391,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 52,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.770Z"
+    },
+    {
+      "id": 392,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 53,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.787Z"
+    },
+    {
+      "id": 393,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 54,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.803Z"
+    },
+    {
+      "id": 394,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.817Z"
+    },
+    {
+      "id": 395,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 56,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.834Z"
+    },
+    {
+      "id": 396,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 57,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.849Z"
+    },
+    {
+      "id": 397,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 58,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.862Z"
+    },
+    {
+      "id": 398,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 60,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.875Z"
+    },
+    {
+      "id": 399,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 62,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.892Z"
+    },
+    {
+      "id": 400,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 63,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.905Z"
+    },
+    {
+      "id": 401,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 65,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.918Z"
+    },
+    {
+      "id": 402,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 67,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.933Z"
+    },
+    {
+      "id": 403,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 68,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.946Z"
+    },
+    {
+      "id": 404,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 69,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.960Z"
+    },
+    {
+      "id": 405,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.975Z"
+    },
+    {
+      "id": 406,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 71,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:42.989Z"
+    },
+    {
+      "id": 407,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 72,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.003Z"
+    },
+    {
+      "id": 408,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 73,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.015Z"
+    },
+    {
+      "id": 409,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 74,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.032Z"
+    },
+    {
+      "id": 410,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 75,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.045Z"
+    },
+    {
+      "id": 411,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 76,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.059Z"
+    },
+    {
+      "id": 412,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 77,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.073Z"
+    },
+    {
+      "id": 413,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 78,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.087Z"
+    },
+    {
+      "id": 414,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 79,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.099Z"
+    },
+    {
+      "id": 415,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 80,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.470Z"
+    },
+    {
+      "id": 416,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 81,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.501Z"
+    },
+    {
+      "id": 417,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 82,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.519Z"
+    },
+    {
+      "id": 418,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 83,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.543Z"
+    },
+    {
+      "id": 419,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 84,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.568Z"
+    },
+    {
+      "id": 420,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:43.631Z"
+    },
+    {
+      "id": 421,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:44.011Z"
+    },
+    {
+      "id": 422,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 86,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:44.032Z"
+    },
+    {
+      "id": 423,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 87,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:44.054Z"
+    },
+    {
+      "id": 424,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 88,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:44.081Z"
+    },
+    {
+      "id": 425,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:44.632Z"
+    },
+    {
+      "id": 426,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:45.633Z"
+    },
+    {
+      "id": 427,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:46.635Z"
+    },
+    {
+      "id": 428,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 87,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:47.204Z"
+    },
+    {
+      "id": 429,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:47.635Z"
+    },
+    {
+      "id": 430,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:48.635Z"
+    },
+    {
+      "id": 431,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:49.635Z"
+    },
+    {
+      "id": 432,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:50.637Z"
+    },
+    {
+      "id": 433,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:51.637Z"
+    },
+    {
+      "id": 434,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:52.637Z"
+    },
+    {
+      "id": 435,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:53.637Z"
+    },
+    {
+      "id": 436,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:54.639Z"
+    },
+    {
+      "id": 437,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:55.640Z"
+    },
+    {
+      "id": 438,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:56.639Z"
+    },
+    {
+      "id": 439,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:57.641Z"
+    },
+    {
+      "id": 440,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:58.641Z"
+    },
+    {
+      "id": 441,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:57:59.642Z"
+    },
+    {
+      "id": 442,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:00.643Z"
+    },
+    {
+      "id": 443,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:01.643Z"
+    },
+    {
+      "id": 444,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:02.646Z"
+    },
+    {
+      "id": 445,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:03.647Z"
+    },
+    {
+      "id": 446,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:04.648Z"
+    },
+    {
+      "id": 447,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:05.649Z"
+    },
+    {
+      "id": 448,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:06.648Z"
+    },
+    {
+      "id": 449,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:07.650Z"
+    },
+    {
+      "id": 450,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:08.650Z"
+    },
+    {
+      "id": 451,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:09.651Z"
+    },
+    {
+      "id": 452,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:10.652Z"
+    },
+    {
+      "id": 453,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:11.652Z"
+    },
+    {
+      "id": 454,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:12.655Z"
+    },
+    {
+      "id": 455,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:13.655Z"
+    },
+    {
+      "id": 456,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:14.656Z"
+    },
+    {
+      "id": 457,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:15.658Z"
+    },
+    {
+      "id": 458,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:16.658Z"
+    },
+    {
+      "id": 459,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:17.659Z"
+    },
+    {
+      "id": 460,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:18.658Z"
+    },
+    {
+      "id": 461,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:19.658Z"
+    },
+    {
+      "id": 462,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:20.658Z"
+    },
+    {
+      "id": 463,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:21.660Z"
+    },
+    {
+      "id": 464,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:22.660Z"
+    },
+    {
+      "id": 465,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:22.708Z"
+    },
+    {
+      "id": 466,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:23.660Z"
+    },
+    {
+      "id": 467,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:23.715Z"
+    },
+    {
+      "id": 468,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:24.660Z"
+    },
+    {
+      "id": 469,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:25.661Z"
+    },
+    {
+      "id": 470,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:26.012Z"
+    },
+    {
+      "id": 471,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:26.198Z"
+    },
+    {
+      "id": 472,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:26.660Z"
+    },
+    {
+      "id": 473,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 75,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:26.789Z"
+    },
+    {
+      "id": 474,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 125,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:27.557Z"
+    },
+    {
+      "id": 475,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:27.661Z"
+    },
+    {
+      "id": 476,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 75,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:28.563Z"
+    },
+    {
+      "id": 477,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:28.662Z"
+    },
+    {
+      "id": 478,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:29.108Z"
+    },
+    {
+      "id": 479,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:29.661Z"
+    },
+    {
+      "id": 480,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:30.662Z"
+    },
+    {
+      "id": 481,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:30.693Z"
+    },
+    {
+      "id": 482,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:31.663Z"
+    },
+    {
+      "id": 483,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:32.664Z"
+    },
+    {
+      "id": 484,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:33.664Z"
+    },
+    {
+      "id": 485,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:34.665Z"
+    },
+    {
+      "id": 486,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 125,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:35.093Z"
+    },
+    {
+      "id": 487,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:35.665Z"
+    },
+    {
+      "id": 488,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:36.665Z"
+    },
+    {
+      "id": 489,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 75,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:37.661Z"
+    },
+    {
+      "id": 490,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:37.676Z"
+    },
+    {
+      "id": 491,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:38.677Z"
+    },
+    {
+      "id": 492,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:38.957Z"
+    },
+    {
+      "id": 493,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:39.678Z"
+    },
+    {
+      "id": 494,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:40.677Z"
+    },
+    {
+      "id": 495,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:40.696Z"
+    },
+    {
+      "id": 496,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:41.237Z"
+    },
+    {
+      "id": 497,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:41.697Z"
+    },
+    {
+      "id": 498,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:42.697Z"
+    },
+    {
+      "id": 499,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:43.589Z"
+    },
+    {
+      "id": 500,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:43.698Z"
+    },
+    {
+      "id": 501,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:44.698Z"
+    },
+    {
+      "id": 502,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:45.699Z"
+    },
+    {
+      "id": 503,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:46.699Z"
+    },
+    {
+      "id": 504,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:47.699Z"
+    },
+    {
+      "id": 505,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 30,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:48.044Z"
+    },
+    {
+      "id": 506,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:48.700Z"
+    },
+    {
+      "id": 507,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:49.675Z"
+    },
+    {
+      "id": 508,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:49.700Z"
+    },
+    {
+      "id": 509,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:50.261Z"
+    },
+    {
+      "id": 510,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:50.558Z"
+    },
+    {
+      "id": 511,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:50.701Z"
+    },
+    {
+      "id": 512,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:50.742Z"
+    },
+    {
+      "id": 513,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:50.932Z"
+    },
+    {
+      "id": 514,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:51.101Z"
+    },
+    {
+      "id": 515,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:51.317Z"
+    },
+    {
+      "id": 516,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:51.517Z"
+    },
+    {
+      "id": 517,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:51.703Z"
+    },
+    {
+      "id": 518,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:51.729Z"
+    },
+    {
+      "id": 519,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:51.893Z"
+    },
+    {
+      "id": 520,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 200,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:52.077Z"
+    },
+    {
+      "id": 521,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:52.703Z"
+    },
+    {
+      "id": 522,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 202,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:52.908Z"
+    },
+    {
+      "id": 523,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:52.991Z"
+    },
+    {
+      "id": 524,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 207,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.012Z"
+    },
+    {
+      "id": 525,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 218,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.025Z"
+    },
+    {
+      "id": 526,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 231,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.053Z"
+    },
+    {
+      "id": 527,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 244,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.070Z"
+    },
+    {
+      "id": 528,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 280,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.084Z"
+    },
+    {
+      "id": 529,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 300,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.097Z"
+    },
+    {
+      "id": 530,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:53.704Z"
+    },
+    {
+      "id": 531,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:54.705Z"
+    },
+    {
+      "id": 532,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:55.705Z"
+    },
+    {
+      "id": 533,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:56.705Z"
+    },
+    {
+      "id": 534,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:57.705Z"
+    },
+    {
+      "id": 535,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:58.706Z"
+    },
+    {
+      "id": 536,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:58:59.709Z"
+    },
+    {
+      "id": 537,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:00.709Z"
+    },
+    {
+      "id": 538,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:01.710Z"
+    },
+    {
+      "id": 539,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:02.709Z"
+    },
+    {
+      "id": 540,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:03.710Z"
+    },
+    {
+      "id": 541,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:04.712Z"
+    },
+    {
+      "id": 542,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:05.713Z"
+    },
+    {
+      "id": 543,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:06.715Z"
+    },
+    {
+      "id": 544,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:07.718Z"
+    },
+    {
+      "id": 545,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 25,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:08.719Z"
+    },
+    {
+      "id": 546,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 40,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:09.720Z"
+    },
+    {
+      "id": 547,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 55,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:10.722Z"
+    },
+    {
+      "id": 548,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 70,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:11.723Z"
+    },
+    {
+      "id": 549,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 85,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:12.723Z"
+    },
+    {
+      "id": 550,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 100,
+      "risk_level": "WARNING",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:13.723Z"
+    },
+    {
+      "id": 551,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 115,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:14.723Z"
+    },
+    {
+      "id": 552,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 130,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:15.722Z"
+    },
+    {
+      "id": 553,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 145,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:16.723Z"
+    },
+    {
+      "id": 554,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 160,
+      "risk_level": "CAUTION",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:17.724Z"
+    },
+    {
+      "id": 555,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 175,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:18.724Z"
+    },
+    {
+      "id": 556,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 190,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:19.726Z"
+    },
+    {
+      "id": 557,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 205,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:20.726Z"
+    },
+    {
+      "id": 558,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_AUTO_SIM",
+      "distance_cm": 220,
+      "risk_level": "SAFE",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-09-30T06:59:21.727Z"
+    }
+  ],
+  "obstacle_events": [
+    {
+      "id": 1,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:34:43.255Z",
+      "end_time": "2026-09-30T06:34:43.257Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-09-30T06:34:43.255Z"
+    },
+    {
+      "id": 2,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:35:03.827Z",
+      "end_time": "2026-09-30T06:35:03.828Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-09-30T06:35:03.827Z"
+    },
+    {
+      "id": 3,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:39:56.271Z",
+      "end_time": "2026-09-30T06:39:56.272Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-09-30T06:39:56.271Z"
+    },
+    {
+      "id": 4,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:39:56.423Z",
+      "end_time": "2026-09-30T06:55:54.531Z",
+      "duration_seconds": 958,
+      "minimum_distance_cm": 18,
+      "source": "WOKWI",
+      "is_active": false,
+      "created_at": "2026-09-30T06:39:56.423Z"
+    },
+    {
+      "id": 5,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:42:27.847Z",
+      "end_time": "2026-09-30T06:42:27.848Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-09-30T06:42:27.847Z"
+    },
+    {
+      "id": 6,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:42:55.401Z",
+      "end_time": "2026-09-30T06:42:55.402Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-09-30T06:42:55.401Z"
+    },
+    {
+      "id": 7,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:55:57.531Z",
+      "end_time": "2026-09-30T06:56:16.541Z",
+      "duration_seconds": 19,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:55:57.531Z"
+    },
+    {
+      "id": 8,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:56:23.543Z",
+      "end_time": "2026-09-30T06:56:42.553Z",
+      "duration_seconds": 19,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:56:23.543Z"
+    },
+    {
+      "id": 9,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:56:49.557Z",
+      "end_time": "2026-09-30T06:57:08.573Z",
+      "duration_seconds": 19,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:56:49.557Z"
+    },
+    {
+      "id": 10,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:57:15.568Z",
+      "end_time": "2026-09-30T06:57:31.362Z",
+      "duration_seconds": 16,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:15.568Z"
+    },
+    {
+      "id": 11,
+      "device_id": "WC-001",
+      "risk_level": "CAUTION",
+      "start_time": "2026-09-30T06:57:31.610Z",
+      "end_time": "2026-09-30T06:57:31.623Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 130,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:31.611Z"
+    },
+    {
+      "id": 12,
+      "device_id": "WC-001",
+      "risk_level": "CAUTION",
+      "start_time": "2026-09-30T06:57:32.611Z",
+      "end_time": "2026-09-30T06:57:32.622Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 145,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:32.611Z"
+    },
+    {
+      "id": 13,
+      "device_id": "WC-001",
+      "risk_level": "CAUTION",
+      "start_time": "2026-09-30T06:57:33.610Z",
+      "end_time": "2026-09-30T06:57:34.610Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 160,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:33.610Z"
+    },
+    {
+      "id": 14,
+      "device_id": "WC-001",
+      "risk_level": "WARNING",
+      "start_time": "2026-09-30T06:57:38.723Z",
+      "end_time": "2026-09-30T06:57:39.627Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 86,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:38.723Z"
+    },
+    {
+      "id": 15,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:57:39.640Z",
+      "end_time": "2026-09-30T06:57:40.626Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 10,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:39.640Z"
+    },
+    {
+      "id": 16,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:57:41.625Z",
+      "end_time": "2026-09-30T06:58:00.648Z",
+      "duration_seconds": 19,
+      "minimum_distance_cm": 12,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:57:41.625Z"
+    },
+    {
+      "id": 17,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:58:07.656Z",
+      "end_time": "2026-09-30T06:58:26.663Z",
+      "duration_seconds": 19,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:07.656Z"
+    },
+    {
+      "id": 18,
+      "device_id": "WC-001",
+      "risk_level": "WARNING",
+      "start_time": "2026-09-30T06:58:26.793Z",
+      "end_time": "2026-09-30T06:58:27.663Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 75,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:26.793Z"
+    },
+    {
+      "id": 19,
+      "device_id": "WC-001",
+      "risk_level": "WARNING",
+      "start_time": "2026-09-30T06:58:28.566Z",
+      "end_time": "2026-09-30T06:58:28.670Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 75,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:28.566Z"
+    },
+    {
+      "id": 20,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:58:29.112Z",
+      "end_time": "2026-09-30T06:58:29.664Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 30,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:29.112Z"
+    },
+    {
+      "id": 21,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:58:33.680Z",
+      "end_time": "2026-09-30T06:58:43.593Z",
+      "duration_seconds": 10,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:33.680Z"
+    },
+    {
+      "id": 22,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:58:43.701Z",
+      "end_time": "2026-09-30T06:58:49.679Z",
+      "duration_seconds": 6,
+      "minimum_distance_cm": 30,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:43.701Z"
+    },
+    {
+      "id": 23,
+      "device_id": "WC-001",
+      "risk_level": "CAUTION",
+      "start_time": "2026-09-30T06:58:49.704Z",
+      "end_time": "2026-09-30T06:58:50.265Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 130,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:49.704Z"
+    },
+    {
+      "id": 24,
+      "device_id": "WC-001",
+      "risk_level": "CAUTION",
+      "start_time": "2026-09-30T06:58:50.704Z",
+      "end_time": "2026-09-30T06:58:50.748Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 145,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:50.704Z"
+    },
+    {
+      "id": 25,
+      "device_id": "WC-001",
+      "risk_level": "CAUTION",
+      "start_time": "2026-09-30T06:58:51.710Z",
+      "end_time": "2026-09-30T06:58:51.732Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 160,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:51.710Z"
+    },
+    {
+      "id": 26,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-09-30T06:58:59.711Z",
+      "end_time": "2026-09-30T06:59:18.726Z",
+      "duration_seconds": 19,
+      "minimum_distance_cm": 25,
+      "source": "SOFTWARE_SIMULATION",
+      "is_active": false,
+      "created_at": "2026-09-30T06:58:59.711Z"
+    }
+  ],
+  "system_settings": {
+    "safeDistanceCm": 160,
+    "cautionDistanceCm": 110,
+    "warningDistanceCm": 55,
+    "criticalDistanceCm": 25,
+    "hysteresisCm": 4,
+    "sensorTimeoutMs": 3000,
+    "heartbeatIntervalMs": 5000,
+    "maxReadingsRetained": 2000,
+    "id": 1,
+    "updated_at": "2026-09-30T06:39:56.409Z"
+  },
+  "device_status": [
+    {
+      "id": 1,
+      "device_id": "WC-001",
+      "sensor_status": "OK",
+      "buzzer_status": false,
+      "vibration_status": false,
+      "led_status": "GREEN",
+      "wifi_rssi": -40,
+      "last_seen": "2026-09-30T06:59:21.729Z"
+    }
+  ]
+}

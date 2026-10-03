@@ -1,0 +1,122 @@
+{
+  "version": 1,
+  "author": "Wheelchair Obstacle Detection System Team",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-esp32-devkit-c-v4",
+      "id": "esp32",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-hc-sr04",
+      "id": "ultrasonic",
+      "top": -160,
+      "left": -120,
+      "attrs": { "distance": "120" }
+    },
+    {
+      "type": "board-ssd1306",
+      "id": "oled",
+      "top": -160,
+      "left": 140,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_green",
+      "top": 200,
+      "left": -140,
+      "attrs": { "color": "green", "label": "SAFE" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_yellow",
+      "top": 200,
+      "left": -80,
+      "attrs": { "color": "yellow", "label": "CAUTION" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led_red",
+      "top": 200,
+      "left": -20,
+      "attrs": { "color": "red", "label": "CRITICAL" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_green",
+      "top": 280,
+      "left": -140,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_yellow",
+      "top": 280,
+      "left": -80,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_red",
+      "top": 280,
+      "left": -20,
+      "attrs": { "value": "220" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "buzzer",
+      "top": 200,
+      "left": 80,
+      "attrs": { "hasPcb": "true", "volume": "0.8" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "vibration_motor",
+      "top": 200,
+      "left": 160,
+      "attrs": { "color": "blue", "label": "VIBRATION ACTUATOR" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r_vib",
+      "top": 280,
+      "left": 160,
+      "attrs": { "value": "220" }
+    }
+  ],
+  "connections": [
+    [ "esp32:5V", "ultrasonic:VCC", "red", [ "v0" ] ],
+    [ "esp32:GND.1", "ultrasonic:GND", "black", [ "v0" ] ],
+    [ "esp32:5", "ultrasonic:TRIG", "blue", [ "v0" ] ],
+    [ "esp32:18", "ultrasonic:ECHO", "cyan", [ "v0" ] ],
+
+    [ "esp32:3V3", "oled:VCC", "red", [ "v0" ] ],
+    [ "esp32:GND.2", "oled:GND", "black", [ "v0" ] ],
+    [ "esp32:21", "oled:SDA", "green", [ "v0" ] ],
+    [ "esp32:22", "oled:SCL", "yellow", [ "v0" ] ],
+
+    [ "esp32:25", "led_green:A", "green", [ "v0" ] ],
+    [ "led_green:C", "r_green:1", "black", [ "v0" ] ],
+    [ "r_green:2", "esp32:GND.1", "black", [ "v0" ] ],
+
+    [ "esp32:26", "led_yellow:A", "yellow", [ "v0" ] ],
+    [ "led_yellow:C", "r_yellow:1", "black", [ "v0" ] ],
+    [ "r_yellow:2", "esp32:GND.1", "black", [ "v0" ] ],
+
+    [ "esp32:27", "led_red:A", "red", [ "v0" ] ],
+    [ "led_red:C", "r_red:1", "black", [ "v0" ] ],
+    [ "r_red:2", "esp32:GND.1", "black", [ "v0" ] ],
+
+    [ "esp32:14", "buzzer:2", "purple", [ "v0" ] ],
+    [ "buzzer:1", "esp32:GND.2", "black", [ "v0" ] ],
+
+    [ "esp32:12", "vibration_motor:A", "orange", [ "v0" ] ],
+    [ "vibration_motor:C", "r_vib:1", "black", [ "v0" ] ],
+    [ "r_vib:2", "esp32:GND.2", "black", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}

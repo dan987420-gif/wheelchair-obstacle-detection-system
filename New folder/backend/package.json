@@ -1,0 +1,28 @@
+{
+  "name": "wheelchair-obstacle-detection-backend",
+  "version": "1.0.0",
+  "description": "Backend REST API and WebSocket Telemetry Server for Wheelchair Obstacle Detection System",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "wheelchair",
+    "obstacle-detection",
+    "ultrasonic",
+    "esp32",
+    "wokwi",
+    "iot",
+    "safety"
+  ],
+  "author": "Engineering Team",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}

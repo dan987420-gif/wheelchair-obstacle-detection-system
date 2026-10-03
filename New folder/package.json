@@ -1,0 +1,24 @@
+{
+  "name": "wheelchair-obstacle-detection-system",
+  "version": "1.0.0",
+  "description": "Real-Time Ultrasonic Obstacle Detection and Multi-Modal Warning System for Wheelchair Assistance",
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "test:backend": "cd backend && npm test",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "wheelchair",
+    "obstacle-detection",
+    "ultrasonic",
+    "hc-sr04",
+    "esp32",
+    "wokwi",
+    "iot",
+    "react",
+    "express"
+  ],
+  "author": "College Engineering Prototype Team",
+  "license": "ISC"
+}
