@@ -7,8 +7,8 @@
  * Safe Distance Logic:
  *   - SAFE:     Distance > 150 cm
  *   - CAUTION:  100 cm < Distance <= 150 cm
- *   - WARNING:  50 cm  < Distance <= 100 cm
- *   - CRITICAL: Distance <= 50 cm
+ *   - WARNING:  30 cm  < Distance <= 100 cm
+ *   - CRITICAL: Distance <= 30 cm
  */
 
 #ifndef CONFIG_H
@@ -55,8 +55,8 @@
 // DISTANCE THRESHOLDS (Centimeters)
 // ==========================================
 #define DEFAULT_SAFE_DISTANCE_CM 150.0f
-#define DEFAULT_CAUTION_DISTANCE_CM 100.0f
-#define DEFAULT_WARNING_DISTANCE_CM 50.0f
+#define DEFAULT_CAUTION_DISTANCE_CM 150.0f
+#define DEFAULT_WARNING_DISTANCE_CM 100.0f
 #define DEFAULT_CRITICAL_DISTANCE_CM 30.0f
 #define DEFAULT_HYSTERESIS_CM 4.0f
 

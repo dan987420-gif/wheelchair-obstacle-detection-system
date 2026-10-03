@@ -36,7 +36,7 @@ public:
     currentRisk(RISK_SAFE) {}
 
   void updateThresholds(float safe, float caution, float warning, float critical, float hyst) {
-    if (safe > caution && caution > warning && warning > critical && critical > 0) {
+    if (safe >= caution && caution > warning && warning > critical && critical > 0) {
       safeThreshold = safe;
       cautionThreshold = caution;
       warningThreshold = warning;
@@ -58,10 +58,12 @@ public:
     // Evaluate risk with state-dependent hysteresis margins
     switch (currentRisk) {
       case RISK_CRITICAL:
-        // Transition down to WARNING only if distance increases beyond critical + hysteresis
+        // Transition up from CRITICAL only if distance increases beyond critical + hysteresis
         if (distanceCm > (criticalThreshold + hysteresis)) {
           if (distanceCm > cautionThreshold) {
-            currentRisk = (distanceCm > safeThreshold) ? RISK_SAFE : RISK_CAUTION;
+            currentRisk = RISK_SAFE;
+          } else if (distanceCm > warningThreshold) {
+            currentRisk = RISK_CAUTION;
           } else {
             currentRisk = RISK_WARNING;
           }
@@ -72,7 +74,11 @@ public:
         if (distanceCm <= criticalThreshold) {
           currentRisk = RISK_CRITICAL;
         } else if (distanceCm > (warningThreshold + hysteresis)) {
-          currentRisk = (distanceCm > safeThreshold) ? RISK_SAFE : RISK_CAUTION;
+          if (distanceCm > cautionThreshold) {
+            currentRisk = RISK_SAFE;
+          } else {
+            currentRisk = RISK_CAUTION;
+          }
         }
         break;
 
