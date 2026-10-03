@@ -5,9 +5,30 @@
 #include <stddef.h>
 #include <stdbool.h>
 #include <math.h>
-#include <string>
 
-typedef std::string String;
+class String {
+public:
+    String() {}
+    String(const char* s) {}
+    String(int v) {}
+    String(float v, int dec = 2) {}
+    String(unsigned long v) {}
+    String(double v, int dec = 2) {}
+
+    String operator+(const String& o) const { return String(); }
+    String operator+(const char* s) const { return String(); }
+    String& operator+=(const String& o) { return *this; }
+    String& operator+=(const char* s) { return *this; }
+
+    bool operator==(const char* s) const { return true; }
+    bool operator!=(const char* s) const { return false; }
+    bool operator==(const String& s) const { return true; }
+    bool operator!=(const String& s) const { return false; }
+
+    const char* c_str() const { return ""; }
+};
+
+inline String operator+(const char* lhs, const String& rhs) { return String(); }
 
 #define HIGH 0x1
 #define LOW  0x0
@@ -37,5 +58,7 @@ inline void pinMode(uint8_t, uint8_t) {}
 inline void digitalWrite(uint8_t, uint8_t) {}
 inline int digitalRead(uint8_t) { return 0; }
 inline void yield() {}
+
+using ::round;
 
 #endif // ARDUINO_H_STUB
