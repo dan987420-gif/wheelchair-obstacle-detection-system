@@ -4,7 +4,7 @@
       "name": "Arduino ESP32 (Wokwi)",
       "includePath": [
         "${workspaceFolder}/**",
-        "${workspaceFolder}/hardware/wokwi/firmware/stubs"
+        "C:/Users/saash/OneDrive/Desktop/New folder/New folder/hardware/wokwi/firmware/stubs"
       ],
       "defines": [
         "ARDUINO=10819",

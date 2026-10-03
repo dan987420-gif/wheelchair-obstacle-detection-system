@@ -3,8 +3,9 @@ CompileFlags:
     - "-DARDUINO=10819"
     - "-DESP32"
     - "-DARDUINO_ARCH_ESP32"
-    - "-I./hardware/wokwi/firmware/stubs"
+    - "-IC:/Users/saash/OneDrive/Desktop/New folder/New folder/hardware/wokwi/firmware/stubs"
 
 Diagnostics:
   Suppress:
     - "drv_compilation_diag_expected_single_input"
+    - "pp_file_not_found"
