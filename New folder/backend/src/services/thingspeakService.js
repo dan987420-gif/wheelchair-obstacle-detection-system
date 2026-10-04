@@ -50,7 +50,7 @@ function fetchThingSpeakFeeds(resultsCount = 30) {
 
     const client = url.startsWith('https') ? https : http;
 
-    const req = client.get(url, { timeout: 6000 }, (res) => {
+    const req = client.get(url, { timeout: 10000 }, (res) => {
       let body = '';
       res.on('data', (chunk) => { body += chunk; });
       res.on('end', () => {
@@ -73,8 +73,9 @@ function fetchThingSpeakFeeds(resultsCount = 30) {
 
     req.on('timeout', () => {
       req.destroy();
-      reject(new Error('ThingSpeak request timed out after 6000ms'));
+      reject(new Error('ThingSpeak request timed out after 10000ms'));
     });
+
   });
 }
 
