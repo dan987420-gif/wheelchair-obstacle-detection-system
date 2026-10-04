@@ -75,6 +75,8 @@ router.get('/readings', (req, res) => {
   return res.json({ success: true, count: readings.length, data: readings });
 });
 
+const thingspeakService = require('../services/thingspeakService');
+
 // GET /api/v1/sensor/readings/latest
 router.get('/readings/latest', (req, res) => {
   const reading = db.getLatestReading(req.query.deviceId);
@@ -87,4 +89,24 @@ router.get('/readings/latest', (req, res) => {
   return res.json({ success: true, data: reading });
 });
 
+// GET /api/v1/sensor/thingspeak/latest
+router.get('/thingspeak/latest', async (req, res) => {
+  const result = await thingspeakService.getLatestTelemetry();
+  if (!result.success) {
+    return res.status(502).json(result);
+  }
+  return res.json(result);
+});
+
+// GET /api/v1/sensor/thingspeak/feeds
+router.get('/thingspeak/feeds', async (req, res) => {
+  const limit = parseInt(req.query.limit, 10) || 60;
+  const result = await thingspeakService.getRecentFeeds(limit);
+  if (!result.success) {
+    return res.status(502).json(result);
+  }
+  return res.json(result);
+});
+
 module.exports = router;
+

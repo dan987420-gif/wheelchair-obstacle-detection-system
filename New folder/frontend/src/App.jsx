@@ -22,7 +22,10 @@ export default function App() {
     audioEnabled,
     toggleAudio,
     settings,
-    reloadSettings
+    reloadSettings,
+    dataSourceMode,
+    setDataSourceMode,
+    refreshThingSpeak
   } = useTelemetry();
 
   return (
@@ -89,6 +92,9 @@ export default function App() {
             telemetry={telemetry}
             history={history}
             settings={settings}
+            dataSourceMode={dataSourceMode}
+            setDataSourceMode={setDataSourceMode}
+            refreshThingSpeak={refreshThingSpeak}
           />
         )}
         {activeTab === 'live' && (
@@ -96,8 +102,12 @@ export default function App() {
             telemetry={telemetry}
             history={history}
             settings={settings}
+            dataSourceMode={dataSourceMode}
+            setDataSourceMode={setDataSourceMode}
+            refreshThingSpeak={refreshThingSpeak}
           />
         )}
+
         {activeTab === 'simulation' && (
           <SimulationPage
             telemetry={telemetry}

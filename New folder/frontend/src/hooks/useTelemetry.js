@@ -92,7 +92,8 @@ export function useTelemetry() {
     }
 
     const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-    const wsUrl = `${protocol}//${window.location.host}/ws`;
+    const wsUrl = import.meta.env.VITE_WS_URL || `${protocol}//${window.location.host}/ws`;
+
 
     try {
       const ws = new WebSocket(wsUrl);
@@ -173,6 +174,56 @@ export function useTelemetry() {
     }
   }, [playAlertTone]);
 
+  const [dataSourceMode, setDataSourceMode] = useState('THINGSPEAK'); // Default to 'THINGSPEAK' cloud stream
+
+  // Fetch ThingSpeak telemetry periodically when THINGSPEAK mode is active
+  const fetchThingSpeakData = useCallback(async () => {
+    try {
+      const latestRes = await api.getThingSpeakLatest();
+      if (latestRes.success && latestRes.data) {
+        const item = latestRes.data;
+        setTelemetry({
+          distanceCm: item.distanceCm,
+          riskLevel: item.riskLevel,
+          sensorStatus: item.sensorStatus,
+          sensorType: item.sensorType,
+          source: 'THINGSPEAK_CLOUD',
+          deviceId: item.deviceId,
+          timestamp: item.timestamp,
+          isOnline: true,
+          rssi: item.rssi,
+          actuators: item.actuators
+        });
+
+        playAlertTone(item.riskLevel);
+
+        if (item.riskLevel === 'CRITICAL') {
+          setActiveAlert({
+            id: Date.now(),
+            risk: 'CRITICAL',
+            distanceCm: item.distanceCm,
+            message: `CRITICAL OBSTACLE DETECTED on ThingSpeak at ${item.distanceCm} cm!`
+          });
+        }
+      }
+
+      const feedsRes = await api.getThingSpeakFeeds(60);
+      if (feedsRes.success && Array.isArray(feedsRes.data)) {
+        setHistory(feedsRes.data);
+      }
+    } catch (err) {
+      console.warn('[ThingSpeak Telemetry] Cloud fetch warning:', err.message);
+    }
+  }, [playAlertTone]);
+
+  useEffect(() => {
+    if (dataSourceMode === 'THINGSPEAK') {
+      fetchThingSpeakData();
+      const tsInterval = setInterval(fetchThingSpeakData, 16000); // 16s ThingSpeak refresh rate
+      return () => clearInterval(tsInterval);
+    }
+  }, [dataSourceMode, fetchThingSpeakData]);
+
   // Initial setup and fallback polling
   useEffect(() => {
     loadSettings();
@@ -180,7 +231,7 @@ export function useTelemetry() {
 
     // Fallback polling interval to check server latest readings if WS is disconnected
     const pollingInterval = setInterval(async () => {
-      if (connectionStatus !== 'CONNECTED') {
+      if (connectionStatus !== 'CONNECTED' && dataSourceMode === 'LOCAL') {
         try {
           const res = await api.getLatestReading();
           if (res.success && res.data) {
@@ -203,7 +254,7 @@ export function useTelemetry() {
       if (reconnectTimeoutRef.current) clearTimeout(reconnectTimeoutRef.current);
       if (wsRef.current) wsRef.current.close();
     };
-  }, [connectWebSocket, loadSettings, connectionStatus]);
+  }, [connectWebSocket, loadSettings, connectionStatus, dataSourceMode]);
 
   const dismissAlert = () => setActiveAlert(null);
   const toggleAudio = () => setAudioEnabled(prev => !prev);
@@ -217,6 +268,10 @@ export function useTelemetry() {
     audioEnabled,
     toggleAudio,
     settings,
-    reloadSettings: loadSettings
+    reloadSettings: loadSettings,
+    dataSourceMode,
+    setDataSourceMode,
+    refreshThingSpeak: fetchThingSpeakData
   };
 }
+

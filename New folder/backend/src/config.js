@@ -20,5 +20,12 @@ module.exports = {
     sensorTimeoutMs: 3000,
     heartbeatIntervalMs: 5000,
     maxReadingsRetained: 2000
+  },
+
+  thingspeak: {
+    channelId: parseInt(process.env.THINGSPEAK_CHANNEL_ID, 10) || 3519643,
+    readApiKey: process.env.THINGSPEAK_READ_API_KEY || '',
+    updateIntervalMs: parseInt(process.env.THINGSPEAK_INTERVAL_MS, 10) || 16000
   }
 };
+

@@ -33,6 +33,9 @@ export const api = {
     const query = new URLSearchParams(params).toString();
     return request(`/sensor/readings${query ? `?${query}` : ''}`);
   },
+  getThingSpeakLatest: () => request('/sensor/thingspeak/latest'),
+  getThingSpeakFeeds: (limit = 60) => request(`/sensor/thingspeak/feeds?limit=${limit}`),
+
 
   // Events
   getObstacleEvents: (params = {}) => {
