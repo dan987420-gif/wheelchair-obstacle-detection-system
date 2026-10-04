@@ -1,0 +1,9 @@
+{
+  "name": "wheelchair-obstacle-detection-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cd \"New folder/backend\" && npm install && npm start",
+    "build": "cd \"New folder/backend\" && npm install"
+  }
+}
