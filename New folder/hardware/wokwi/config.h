@@ -1,7 +1,6 @@
 /**
  * @file config.h
- * @brief Centralized Configuration and Pinout for Wheelchair Obstacle Detection
- * System
+ * @brief Centralized Configuration and Pinout for Wheelchair Obstacle Detection System
  * @version 1.0.0
  *
  * Safe Distance Logic:
@@ -85,9 +84,6 @@
 #define WIFI_PASSWORD ""
 
 // Default Backend URL
-// In standard local Wokwi simulation with Wokwi IoT Gateway or local network
-// proxy: "http://10.0.2.2:5000/api/v1/sensor/readings" or
-// "http://localhost:5000/api/v1/sensor/readings"
 #define DEFAULT_BACKEND_HOST "http://localhost:5000"
 #define SENSOR_READINGS_ENDPOINT "/api/v1/sensor/readings"
 #define DEVICE_HEARTBEAT_ENDPOINT "/api/v1/devices/heartbeat"
@@ -99,4 +95,5 @@
 #define THINGSPEAK_WRITE_API_KEY "PLACEHOLDER_THINGSPEAK_WRITE_KEY"
 #define THINGSPEAK_UPDATE_URL "https://api.thingspeak.com/update"
 #define THINGSPEAK_INTERVAL_MS 16000
+
 #endif // CONFIG_H

@@ -1,21 +1,19 @@
 /**
- * @file main.ino
+ * @file sketch.ino
  * @brief Wheelchair Obstacle Detection System - Main Firmware
  * @author Senior Embedded Systems & IoT Engineering Team
  *
- * Hardware Platform: ESP32 DevKit + HC-SR04 + OLED + Visual/Acoustic/Haptic
- * Actuators
+ * Hardware Platform: ESP32 DevKit + HC-SR04 + OLED + Visual/Acoustic/Haptic Actuators
  *
  * Architecture Principle:
- *   Autonomous Local Safety Loop (100% active even if Network/Backend is
- * Offline) Integrated IoT Telemetry Stream (JSON Lines over Serial & REST HTTP
- * POST)
+ *   Autonomous Local Safety Loop (100% active even if Network/Backend is Offline)
+ *   Integrated IoT Telemetry Stream (JSON Lines over Serial & REST HTTP POST)
  */
 
-#include "actuator_manager.h"
-#include "communication_manager.h"
 #include "config.h"
 #include "safety_manager.h"
+#include "actuator_manager.h"
+#include "communication_manager.h"
 #include "sensor_manager.h"
 
 // System Module Instances
@@ -76,8 +74,7 @@ void loop() {
     // Evaluate risk level with hysteresis dampening
     RiskLevel currentRisk = safetyMgr.calculateRisk(currentFilteredDist);
 
-    // If a risk transition occurs (e.g. SAFE -> CRITICAL), trigger immediate
-    // telemetry
+    // If a risk transition occurs (e.g. SAFE -> CRITICAL), trigger immediate telemetry
     if (currentRisk != previousRiskLevel) {
       commMgr.printSerialData(
           currentFilteredDist, currentRisk, sensorMgr.getStatusString(),
@@ -92,6 +89,7 @@ void loop() {
 
       previousRiskLevel = currentRisk;
     }
+
     // Send sensor data to ThingSpeak
     int riskValue = 0;
     int ledStatus = 0;
