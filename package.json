@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "npm install && cd \"New folder/backend\" && npm install",
-    "start": "cd \"New folder/backend\" && node src/server.js"
+    "start": "node \"New folder/backend/src/server.js\""
   },
   "dependencies": {
     "cors": "^2.8.5",
