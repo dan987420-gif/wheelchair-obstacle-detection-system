@@ -7,120 +7,12 @@
       "location": "Lab Test Rig",
       "firmware_version": "1.0.0-sim",
       "status": "OFFLINE",
-      "last_seen": "2026-10-05T14:28:47.577Z",
+      "last_seen": "2026-10-05T15:26:23.790Z",
       "created_at": "2026-09-30T06:34:43.244Z",
-      "updated_at": "2026-10-05T14:28:47.577Z"
+      "updated_at": "2026-10-05T15:26:23.790Z"
     }
   ],
   "sensor_readings": [
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 40,
-      "risk_level": "CRITICAL",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:13.452Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 25,
-      "risk_level": "CRITICAL",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:14.464Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 40,
-      "risk_level": "CRITICAL",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:15.474Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 55,
-      "risk_level": "CRITICAL",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:16.486Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 70,
-      "risk_level": "WARNING",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:17.497Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 85,
-      "risk_level": "WARNING",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:18.508Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 100,
-      "risk_level": "WARNING",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:19.517Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 115,
-      "risk_level": "CAUTION",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:20.528Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 130,
-      "risk_level": "CAUTION",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:21.541Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 145,
-      "risk_level": "CAUTION",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:22.551Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 160,
-      "risk_level": "CAUTION",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:23.563Z"
-    },
-    {
-      "id": 2001,
-      "device_id": "WC-001",
-      "sensor_type": "HC-SR04_AUTO_SIM",
-      "distance_cm": 175,
-      "risk_level": "SAFE",
-      "source": "SOFTWARE_SIMULATION",
-      "recorded_at": "2026-10-04T14:04:24.563Z"
-    },
     {
       "id": 2001,
       "device_id": "WC-001",
@@ -18012,6 +17904,114 @@
       "risk_level": "CRITICAL",
       "source": "SOFTWARE_SIMULATION",
       "recorded_at": "2026-10-05T14:28:47.573Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 185.2,
+      "risk_level": "SAFE",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:22:19.904Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 18,
+      "risk_level": "CRITICAL",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:22:19.933Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-10-05T15:22:19.972Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 185.2,
+      "risk_level": "SAFE",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:24:51.524Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 18,
+      "risk_level": "CRITICAL",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:24:51.555Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-10-05T15:24:51.599Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 185.2,
+      "risk_level": "SAFE",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:26:02.126Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 18,
+      "risk_level": "CRITICAL",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:26:02.156Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-10-05T15:26:02.200Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 185.2,
+      "risk_level": "SAFE",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:26:23.708Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04",
+      "distance_cm": 18,
+      "risk_level": "CRITICAL",
+      "source": "WOKWI",
+      "recorded_at": "2026-10-05T15:26:23.733Z"
+    },
+    {
+      "id": 2001,
+      "device_id": "WC-001",
+      "sensor_type": "HC-SR04_SIMULATOR",
+      "distance_cm": 45,
+      "risk_level": "CRITICAL",
+      "source": "SOFTWARE_SIMULATION",
+      "recorded_at": "2026-10-05T15:26:23.784Z"
     }
   ],
   "obstacle_events": [
@@ -32996,12 +32996,84 @@
       "device_id": "WC-001",
       "risk_level": "CRITICAL",
       "start_time": "2026-10-05T14:28:47.551Z",
+      "end_time": "2026-10-05T15:22:19.918Z",
+      "duration_seconds": 3212,
+      "minimum_distance_cm": 18,
+      "source": "WOKWI",
+      "is_active": false,
+      "created_at": "2026-10-05T14:28:47.551Z"
+    },
+    {
+      "id": 1250,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-10-05T15:22:19.701Z",
+      "end_time": "2026-10-05T15:22:19.723Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-10-05T15:22:19.701Z"
+    },
+    {
+      "id": 1251,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-10-05T15:22:19.948Z",
+      "end_time": "2026-10-05T15:24:51.541Z",
+      "duration_seconds": 152,
+      "minimum_distance_cm": 18,
+      "source": "WOKWI",
+      "is_active": false,
+      "created_at": "2026-10-05T15:22:19.948Z"
+    },
+    {
+      "id": 1252,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-10-05T15:24:51.569Z",
+      "end_time": "2026-10-05T15:26:02.141Z",
+      "duration_seconds": 71,
+      "minimum_distance_cm": 18,
+      "source": "WOKWI",
+      "is_active": false,
+      "created_at": "2026-10-05T15:24:51.569Z"
+    },
+    {
+      "id": 1253,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-10-05T15:26:02.173Z",
+      "end_time": "2026-10-05T15:26:23.722Z",
+      "duration_seconds": 22,
+      "minimum_distance_cm": 18,
+      "source": "WOKWI",
+      "is_active": false,
+      "created_at": "2026-10-05T15:26:02.173Z"
+    },
+    {
+      "id": 1254,
+      "device_id": "TEST-WC-999",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-10-05T15:26:23.509Z",
+      "end_time": "2026-10-05T15:26:23.523Z",
+      "duration_seconds": 1,
+      "minimum_distance_cm": 28,
+      "source": "TEST",
+      "is_active": false,
+      "created_at": "2026-10-05T15:26:23.509Z"
+    },
+    {
+      "id": 1255,
+      "device_id": "WC-001",
+      "risk_level": "CRITICAL",
+      "start_time": "2026-10-05T15:26:23.751Z",
       "end_time": null,
       "duration_seconds": 0,
       "minimum_distance_cm": 18,
       "source": "WOKWI",
       "is_active": true,
-      "created_at": "2026-10-05T14:28:47.551Z"
+      "created_at": "2026-10-05T15:26:23.751Z"
     }
   ],
   "system_settings": {
@@ -33014,7 +33086,7 @@
     "heartbeatIntervalMs": 5000,
     "maxReadingsRetained": 2000,
     "id": 1,
-    "updated_at": "2026-10-05T14:28:47.491Z"
+    "updated_at": "2026-10-05T15:26:23.694Z"
   },
   "device_status": [
     {
@@ -33025,7 +33097,7 @@
       "vibration_status": true,
       "led_status": "RED",
       "wifi_rssi": -42,
-      "last_seen": "2026-10-05T14:28:47.577Z"
+      "last_seen": "2026-10-05T15:26:23.790Z"
     }
   ]
 }

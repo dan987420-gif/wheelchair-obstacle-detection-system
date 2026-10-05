@@ -50,6 +50,14 @@ class WebSocketManager {
       }
     }
   }
+
+  close() {
+    if (this.wss) {
+      this.wss.close();
+      this.wss = null;
+      this.clients.clear();
+    }
+  }
 }
 
 module.exports = new WebSocketManager();

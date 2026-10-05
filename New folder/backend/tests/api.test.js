@@ -2,6 +2,7 @@ const test = require('node:test');
 const assert = require('node:assert');
 const http = require('http');
 const { app, server: appServer } = require('../src/server');
+const wsManager = require('../src/websocket');
 
 let testServer;
 let baseUrl;
@@ -17,9 +18,18 @@ test.before(async () => {
 });
 
 test.after(async () => {
-  await new Promise((resolve) => {
-    testServer.close(resolve);
-  });
+  if (testServer) {
+    if (typeof testServer.closeAllConnections === 'function') {
+      testServer.closeAllConnections();
+    }
+    await new Promise((resolve) => {
+      testServer.close(resolve);
+    });
+  }
+  wsManager.close();
+  if (appServer && typeof appServer.close === 'function') {
+    appServer.close();
+  }
 });
 
 test('API - Health Check Endpoint', async () => {
