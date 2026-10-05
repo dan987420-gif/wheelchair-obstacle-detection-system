@@ -1,5 +1,7 @@
 {
   "C_Cpp.errorSquiggles": "Disabled",
   "C_Cpp.intelliSenseEngine": "Disabled",
-  "clangd.enable": false
+  "clangd.enable": false,
+  "json.schemaDownload.enable": false
 }
+
