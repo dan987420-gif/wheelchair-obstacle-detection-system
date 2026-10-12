@@ -95,8 +95,19 @@
 // ==========================================
 // THINGSPEAK CONFIGURATION
 // ==========================================
+#ifndef THINGSPEAK_CHANNEL_ID
 #define THINGSPEAK_CHANNEL_ID 3519643
+#endif
+
+#ifndef THINGSPEAK_WRITE_API_KEY
 #define THINGSPEAK_WRITE_API_KEY "PLACEHOLDER_THINGSPEAK_WRITE_KEY"
+#endif
+
+#ifndef THINGSPEAK_UPDATE_URL
 #define THINGSPEAK_UPDATE_URL "https://api.thingspeak.com/update"
+#endif
+
+#ifndef THINGSPEAK_INTERVAL_MS
 #define THINGSPEAK_INTERVAL_MS 16000
+#endif
 #endif // CONFIG_H

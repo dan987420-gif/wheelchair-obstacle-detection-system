@@ -93,37 +93,48 @@ void loop() {
     // Send sensor data to ThingSpeak
     int riskValue = 0;
     int ledStatus = 0;
+    bool buzzerActive = false;
+    bool vibrationActive = false;
 
     switch (currentRisk) {
     case RISK_SAFE:
       riskValue = 0;
       ledStatus = 1;
+      buzzerActive = false;
+      vibrationActive = false;
       break;
 
     case RISK_CAUTION:
       riskValue = 1;
       ledStatus = 2;
+      buzzerActive = true;
+      vibrationActive = true;
       break;
 
     case RISK_WARNING:
       riskValue = 2;
       ledStatus = 3;
+      buzzerActive = true;
+      vibrationActive = true;
       break;
 
     case RISK_CRITICAL:
       riskValue = 3;
       ledStatus = 4;
+      buzzerActive = true;
+      vibrationActive = true;
       break;
 
     default:
       riskValue = 0;
       ledStatus = 0;
+      buzzerActive = false;
+      vibrationActive = false;
       break;
     }
 
     commMgr.sendToThingSpeak(currentFilteredDist, riskValue,
-                             actuatorMgr.getBuzzerActive(),
-                             actuatorMgr.getVibrationActive(), ledStatus);
+                             buzzerActive, vibrationActive, ledStatus);
   }
 
   // -------------------------------------------------------------

@@ -109,46 +109,48 @@ export function useTelemetry() {
           const message = JSON.parse(event.data);
 
           if (message.type === 'SENSOR_READING') {
-            const { reading, status, eventChange } = message.data;
+            if (dataSourceMode === 'LOCAL') {
+              const { reading, status, eventChange } = message.data;
 
-            setTelemetry({
-              distanceCm: reading.distance_cm,
-              riskLevel: reading.risk_level,
-              sensorStatus: status?.sensor_status || (reading.distance_cm < 0 ? 'ERROR' : 'OK'),
-              sensorType: reading.sensor_type,
-              source: reading.source,
-              deviceId: reading.device_id,
-              timestamp: reading.recorded_at,
-              isOnline: true,
-              rssi: status?.wifi_rssi || -45,
-              actuators: {
-                buzzer: status?.buzzer_status ?? (reading.risk_level === 'WARNING' || reading.risk_level === 'CRITICAL'),
-                vibration: status?.vibration_status ?? (reading.risk_level !== 'SAFE' && reading.risk_level !== 'UNKNOWN'),
-                led: status?.led_status ?? (reading.risk_level === 'CRITICAL' ? 'RED' : (reading.risk_level === 'WARNING' ? 'YELLOW_BLINKING' : (reading.risk_level === 'CAUTION' ? 'YELLOW' : 'GREEN')))
-              }
-            });
-
-            // Append to rolling live history (last 60 points)
-            setHistory((prev) => {
-              const updated = [...prev, {
-                time: new Date(reading.recorded_at).toLocaleTimeString(),
-                distance: reading.distance_cm,
-                risk: reading.risk_level
-              }];
-              return updated.slice(-60);
-            });
-
-            // Play audio alert tone
-            playAlertTone(reading.risk_level);
-
-            // Banner alert trigger on critical
-            if (reading.risk_level === 'CRITICAL') {
-              setActiveAlert({
-                id: Date.now(),
-                risk: 'CRITICAL',
+              setTelemetry({
                 distanceCm: reading.distance_cm,
-                message: `CRITICAL OBSTACLE DETECTED at ${reading.distance_cm} cm! Immediate attention required.`
+                riskLevel: reading.risk_level,
+                sensorStatus: status?.sensor_status || (reading.distance_cm < 0 ? 'ERROR' : 'OK'),
+                sensorType: reading.sensor_type,
+                source: reading.source,
+                deviceId: reading.device_id,
+                timestamp: reading.recorded_at,
+                isOnline: true,
+                rssi: status?.wifi_rssi || -45,
+                actuators: {
+                  buzzer: status?.buzzer_status ?? (reading.risk_level === 'WARNING' || reading.risk_level === 'CRITICAL'),
+                  vibration: status?.vibration_status ?? (reading.risk_level !== 'SAFE' && reading.risk_level !== 'UNKNOWN'),
+                  led: status?.led_status ?? (reading.risk_level === 'CRITICAL' ? 'RED' : (reading.risk_level === 'WARNING' ? 'YELLOW_BLINKING' : (reading.risk_level === 'CAUTION' ? 'YELLOW' : 'GREEN')))
+                }
               });
+
+              // Append to rolling live history (last 60 points)
+              setHistory((prev) => {
+                const updated = [...prev, {
+                  time: new Date(reading.recorded_at).toLocaleTimeString(),
+                  distance: reading.distance_cm,
+                  risk: reading.risk_level
+                }];
+                return updated.slice(-60);
+              });
+
+              // Play audio alert tone
+              playAlertTone(reading.risk_level);
+
+              // Banner alert trigger on critical
+              if (reading.risk_level === 'CRITICAL') {
+                setActiveAlert({
+                  id: Date.now(),
+                  risk: 'CRITICAL',
+                  distanceCm: reading.distance_cm,
+                  message: `CRITICAL OBSTACLE DETECTED at ${reading.distance_cm} cm! Immediate attention required.`
+                });
+              }
             }
           } else if (message.type === 'SETTINGS_UPDATE') {
             setSettings(message.data);
@@ -172,7 +174,7 @@ export function useTelemetry() {
       setConnectionStatus('DISCONNECTED');
       reconnectTimeoutRef.current = setTimeout(connectWebSocket, 3000);
     }
-  }, [playAlertTone]);
+  }, [playAlertTone, dataSourceMode]);
 
   const [dataSourceMode, setDataSourceMode] = useState('THINGSPEAK'); // Default to 'THINGSPEAK' cloud stream
 
@@ -219,7 +221,7 @@ export function useTelemetry() {
   useEffect(() => {
     if (dataSourceMode === 'THINGSPEAK') {
       fetchThingSpeakData();
-      const tsInterval = setInterval(fetchThingSpeakData, 16000); // 16s ThingSpeak refresh rate
+      const tsInterval = setInterval(fetchThingSpeakData, 5000); // 5s ThingSpeak refresh rate
       return () => clearInterval(tsInterval);
     }
   }, [dataSourceMode, fetchThingSpeakData]);

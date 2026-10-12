@@ -91,6 +91,9 @@ router.get('/readings/latest', (req, res) => {
 
 // GET /api/v1/sensor/thingspeak/latest
 router.get('/thingspeak/latest', async (req, res) => {
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
   const result = await thingspeakService.getLatestTelemetry();
   if (!result.success) {
     return res.status(502).json(result);
@@ -100,6 +103,9 @@ router.get('/thingspeak/latest', async (req, res) => {
 
 // GET /api/v1/sensor/thingspeak/feeds
 router.get('/thingspeak/feeds', async (req, res) => {
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+  res.setHeader('Pragma', 'no-cache');
+  res.setHeader('Expires', '0');
   const limit = parseInt(req.query.limit, 10) || 60;
   const result = await thingspeakService.getRecentFeeds(limit);
   if (!result.success) {

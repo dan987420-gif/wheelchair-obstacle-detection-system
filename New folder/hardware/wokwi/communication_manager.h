@@ -136,6 +136,8 @@ public:
     return (httpCode >= 200 && httpCode < 300);
   }
 
+#include <WiFiClientSecure.h>
+
   bool sendToThingSpeak(float distanceCm, int riskValue, bool buzzer,
                         bool vibration, int ledStatus) {
 
@@ -144,12 +146,12 @@ public:
     }
     unsigned long now = millis();
 
-    if (now - lastThingSpeakSend < THINGSPEAK_INTERVAL_MS) {
+    if (lastThingSpeakSend != 0 && (now - lastThingSpeakSend < THINGSPEAK_INTERVAL_MS)) {
       return false;
     }
 
-    lastThingSpeakSend = now;
     HTTPClient http;
+    WiFiClientSecure client;
 
     String url = String(THINGSPEAK_UPDATE_URL);
     url += "?api_key=" + String(THINGSPEAK_WRITE_API_KEY);
@@ -159,21 +161,32 @@ public:
     url += "&field4=" + String(ledStatus);
     url += "&field5=" + String(vibration ? 1 : 0);
 
-    http.begin(url);
+    if (url.startsWith("https://")) {
+      client.setInsecure();
+      http.begin(client, url);
+    } else {
+      http.begin(url);
+    }
     http.setTimeout(5000);
 
     int httpCode = http.GET();
     String response = http.getString();
-
     http.end();
 
     Serial.print(F("ThingSpeak HTTP Code: "));
     Serial.println(httpCode);
-
     Serial.print(F("ThingSpeak Response: "));
     Serial.println(response);
 
-    return (httpCode == 200 && response != "0");
+    if (httpCode == 200 && response != "0") {
+      lastThingSpeakSend = now;
+      return true;
+    }
+    // If rate-limited by ThingSpeak (response "0"), mark timestamp to wait out the cooldown
+    if (response == "0") {
+      lastThingSpeakSend = now;
+    }
+    return false;
   }
 
   bool isWifiConnected() const { return wifiConnected; }
