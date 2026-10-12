@@ -104,7 +104,7 @@
 #endif
 
 #ifndef THINGSPEAK_UPDATE_URL
-#define THINGSPEAK_UPDATE_URL "https://api.thingspeak.com/update"
+#define THINGSPEAK_UPDATE_URL "http://api.thingspeak.com/update"
 #endif
 
 #ifndef THINGSPEAK_INTERVAL_MS

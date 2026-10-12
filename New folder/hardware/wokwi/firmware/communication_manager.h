@@ -12,6 +12,8 @@
 #include <ArduinoJson.h>
 #include <HTTPClient.h>
 #include <WiFi.h>
+#include <WiFiClient.h>
+#include <WiFiClientSecure.h>
 
 class CommunicationManager {
 private:
@@ -110,8 +112,7 @@ public:
     HTTPClient http;
     http.begin(backendUrl);
     http.addHeader("Content-Type", "application/json");
-    http.setTimeout(
-        800); // Strict short timeout so hardware loop is never stalled
+    http.setTimeout(800); // Strict short timeout so hardware loop is never stalled
 
     StaticJsonDocument<384> doc;
     doc["protocolVersion"] = PROTOCOL_VERSION;
@@ -137,22 +138,23 @@ public:
     return (httpCode >= 200 && httpCode < 300);
   }
 
-#include <WiFiClientSecure.h>
-
   bool sendToThingSpeak(float distanceCm, int riskValue, bool buzzer,
                         bool vibration, int ledStatus) {
 
     if (WiFi.status() != WL_CONNECTED) {
+      Serial.println(F("DEBUG: ThingSpeak upload skipped - WiFi not connected"));
       return false;
     }
     unsigned long now = millis();
 
+    // Respect configured interval (16000ms) between transmissions
     if (lastThingSpeakSend != 0 && (now - lastThingSpeakSend < THINGSPEAK_INTERVAL_MS)) {
       return false;
     }
 
     HTTPClient http;
-    WiFiClientSecure client;
+    WiFiClient client;
+    WiFiClientSecure secureClient;
 
     String url = String(THINGSPEAK_UPDATE_URL);
     url += "?api_key=" + String(THINGSPEAK_WRITE_API_KEY);
@@ -162,30 +164,56 @@ public:
     url += "&field4=" + String(ledStatus);
     url += "&field5=" + String(vibration ? 1 : 0);
 
+    bool beginOk = false;
     if (url.startsWith("https://")) {
-      client.setInsecure();
-      http.begin(client, url);
+      secureClient.setInsecure();
+      secureClient.setTimeout(5000);
+      beginOk = http.begin(secureClient, url);
     } else {
-      http.begin(url);
+      client.setTimeout(5000);
+      beginOk = http.begin(client, url);
     }
-    http.setTimeout(5000);
 
+    if (!beginOk) {
+      Serial.println(F("ERROR: ThingSpeak HTTP client initialization failed."));
+      lastThingSpeakSend = (now >= THINGSPEAK_INTERVAL_MS - 5000) ? (now - THINGSPEAK_INTERVAL_MS + 5000) : 1;
+      return false;
+    }
+
+    http.setTimeout(5000);
     int httpCode = http.GET();
     String response = http.getString();
     http.end();
 
     Serial.print(F("ThingSpeak HTTP Code: "));
     Serial.println(httpCode);
+
+    if (httpCode < 0) {
+      Serial.print(F("ThingSpeak Network Error: "));
+      Serial.println(http.errorToString(httpCode));
+      lastThingSpeakSend = (now >= THINGSPEAK_INTERVAL_MS - 5000) ? (now - THINGSPEAK_INTERVAL_MS + 5000) : 1;
+      return false;
+    }
+
     Serial.print(F("ThingSpeak Response: "));
     Serial.println(response);
 
-    if (httpCode == 200 && response != "0") {
+    long entryId = response.toInt();
+    if (httpCode == 200 && entryId > 0) {
+      Serial.print(F("ThingSpeak Success! Recorded Entry ID: "));
+      Serial.println(entryId);
       lastThingSpeakSend = now;
       return true;
     }
-    // If rate-limited by ThingSpeak (response "0"), mark timestamp to wait out the cooldown
+
+    // Response "0" indicates rate limit cooldown or rejected write
     if (response == "0") {
+      Serial.println(F("WARNING: ThingSpeak write rejected or rate-limited (waiting cooldown)."));
       lastThingSpeakSend = now;
+    } else {
+      Serial.print(F("WARNING: Unexpected ThingSpeak response: "));
+      Serial.println(response);
+      lastThingSpeakSend = (now >= THINGSPEAK_INTERVAL_MS - 5000) ? (now - THINGSPEAK_INTERVAL_MS + 5000) : 1;
     }
     return false;
   }

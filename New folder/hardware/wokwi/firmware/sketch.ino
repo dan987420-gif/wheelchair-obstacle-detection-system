@@ -133,8 +133,10 @@ void loop() {
       break;
     }
 
-    commMgr.sendToThingSpeak(currentFilteredDist, riskValue,
-                             buzzerActive, vibrationActive, ledStatus);
+    if (currentFilteredDist >= 0) {
+      commMgr.sendToThingSpeak(currentFilteredDist, riskValue,
+                               buzzerActive, vibrationActive, ledStatus);
+    }
   }
 
   // -------------------------------------------------------------
